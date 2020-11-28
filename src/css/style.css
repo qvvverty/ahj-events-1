@@ -1,0 +1,27 @@
+body {
+    color: #999;
+}
+
+.field {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 500px;
+
+  border: solid 1px;
+}
+
+.cell {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 250px;
+  height: 250px;
+
+  border: solid 1px;
+}
